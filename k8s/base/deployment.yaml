@@ -20,4 +20,4 @@ spec:
         - name: pgf-app
           image: 673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 8080
