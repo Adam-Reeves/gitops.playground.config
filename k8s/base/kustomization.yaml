@@ -6,5 +6,5 @@ resources:
 - service.yaml
 images:
 - name: 673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf
-  newName: k673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf
-  newTag: 80d6c4ae45821686134e51111f5b1e8402b93335
+  newName: 673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf
+  newTag: f9933eaacd952739739ec0594c401ead4fe70e35
