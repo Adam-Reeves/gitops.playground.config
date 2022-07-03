@@ -13,7 +13,6 @@ spec:
     metadata:
       annotations:
         argocd-image-updater.argoproj.io/image-list: <image_alias>=742196880003.dkr.ecr.eu-west-1.amazonaws.com/pgf:latest
-        ext:<path_to_script>
       labels:
         app: pgf-app
     spec:
