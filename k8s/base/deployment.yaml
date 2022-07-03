@@ -12,12 +12,12 @@ spec:
   template:
     metadata:
       annotations:
-        argocd-image-updater.argoproj.io/image-list: <image_alias>=742196880003.dkr.ecr.eu-west-1.amazonaws.com/pgf:latest
+        argocd-image-updater.argoproj.io/image-list: <image_alias>=673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf:latest
       labels:
         app: pgf-app
     spec:
       containers:
         - name: pgf-app
-          image: 742196880003.dkr.ecr.eu-west-1.amazonaws.com/pgf:8b492611a03d8cf89c747e5dc40e2a2e3eba550c
+          image: 673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf:latest
           ports:
             - containerPort: 3000
