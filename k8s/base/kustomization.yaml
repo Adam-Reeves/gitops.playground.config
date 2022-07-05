@@ -7,4 +7,4 @@ resources:
 images:
 - name: 673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf
   newName: 673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf
-  newTag: f57c816fac56ca4313cddd89fb0655251f05126c
+  newTag: 28e04a0fda3e3af773ba05d451c8696fecbdcd4b
