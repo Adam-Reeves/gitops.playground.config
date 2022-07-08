@@ -4,6 +4,8 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
+- externalsecret.yaml
+- secretstore.yaml
 images:
 - name: 673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf
   newName: 673278370432.dkr.ecr.eu-west-1.amazonaws.com/pgf
